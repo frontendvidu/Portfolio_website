@@ -121,10 +121,16 @@ nav a:hover {
   font-size: 16px;
 }
 
-h2 {
+.h2_white {
   font-weight: 700;
   font-size: 55px;
   color: rgba(255, 255, 255, 1);
+}
+
+.h2_black {
+  font-weight: 700;
+  font-size: 55px;
+  color: rgba(24, 24, 35, 1);
 }
 
 .features {
@@ -153,4 +159,53 @@ h2 {
   color: rgba(255, 255, 255, 1);
   line-height: 150%;
   margin-top: 10px;
+}
+
+#feature_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: 600px;
+  background-color: brown;
+}
+
+.feature_image_left {
+  width: 50%;
+  height: inherit;
+  background-color: rgba(255, 243, 228, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 125px 70px;
+}
+
+.feature_image_right {
+  width: 50%;
+  height: inherit;
+  background: url(images/featured.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature_image_p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(91, 104, 118, 1);
+  margin-top: 10px;
+  line-height: 150%;
+  margin-bottom: 140px;
+}
+
+.feature_image_button {
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 1);
+  line-height: 150%;
+  background-color: rgba(255, 243, 228, 1);
+  border: none;
+  border-bottom: 1px solid rgba(91, 104, 118, 1);
 }
