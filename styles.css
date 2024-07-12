@@ -167,7 +167,6 @@ nav a:hover {
   justify-content: center;
   width: inherit;
   height: 600px;
-  background-color: brown;
 }
 
 .feature_image_left {
@@ -208,4 +207,22 @@ nav a:hover {
   background-color: rgba(255, 243, 228, 1);
   border: none;
   border-bottom: 1px solid rgba(91, 104, 118, 1);
+}
+
+#feature_image_two {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: 600px;
+}
+
+.feature_image_right_two {
+  width: 50%;
+  height: inherit;
+  background: url(images/featured2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
