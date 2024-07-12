@@ -226,3 +226,34 @@ nav a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#skillset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 127px 70px 118px 70px;
+}
+
+.skillset_left {
+  width: 20%;
+}
+
+.skillset_right {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.skill {
+  width: 416px;
+  height: 169px;
+}
+
+.h3_white {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
