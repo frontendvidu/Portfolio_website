@@ -389,3 +389,72 @@ nav a:hover {
   gap: 10px;
   margin-top: 30px;
 }
+
+#talk {
+  width: inherit;
+  height: 731px;
+  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 130px 183px;
+}
+
+.talk_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+
+.talk_right {
+  width: 50%;
+}
+
+.talk_right_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.talk_right_form span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 100%;
+  gap: 5px;
+}
+
+.talk_right_form span label {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.talk_right_form span input {
+  width: inherit;
+  background-color: rgba(24, 24, 35, 1);
+  width: 526px;
+  height: 50px;
+  border: none;
+}
+
+.talk_right_form span textarea {
+  background-color: rgba(24, 24, 35, 1);
+  width: 526px;
+  height: 100px;
+  border: none;
+}
+
+.talk_right button {
+  background-color: rgba(82, 33, 230, 1);
+  padding: 24px 33px;
+  color: white;
+  border: none;
+  width: 525px;
+}
