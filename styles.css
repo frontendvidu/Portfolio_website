@@ -458,3 +458,33 @@ nav a:hover {
   border: none;
   width: 525px;
 }
+
+#footer {
+  width: inherit;
+  height: 422px;
+  background-color: rgba(24, 24, 35, 1);
+  padding: 70px 283px 82px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.icons {
+  margin-bottom: 142px;
+  margin-top: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(132, 145, 160, 1);
+}
