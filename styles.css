@@ -513,28 +513,71 @@ nav a:hover {
 }
 
 #projects {
-  width: 100%; /* Ensure it takes the full width */
+  width: 100%;
   display: flex;
-  flex-direction: row; /* Align children in a row */
-  align-items: center;
-  justify-content: center; /* Adjust based on your layout needs */
-  background-color: aquamarine;
+  align-items: stretch;
+  justify-content: center;
+  background-color: black;
+  gap: 10px;
+  padding: 122px 49px;
 }
 
 .projects_left,
 .projects_right {
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 20px; /* Add padding if needed */
 }
 
-.projects_left {
-  background-color: red;
+#projects span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.projects_right {
-  background-color: blue;
+.individual_project {
+  width: 636px;
+  height: 825px;
+}
+
+.individual_project img {
+  object-fit: cover;
+  width: 636px;
+  height: 619px;
+}
+
+.individual_project div {
+  padding: 40px 32px;
+  background-color: rgba(24, 24, 35, 1);
+}
+
+.individual_project div h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.individual_project div p {
+  color: rgba(132, 145, 160, 1);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.projects_left h2 {
+  margin-bottom: 73px;
+}
+
+.projects_right button {
+  border: 1px solid rgba(82, 33, 230, 1);
+  padding: 24px 32px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 144px auto 0;
 }
