@@ -356,9 +356,10 @@ nav a:hover {
   align-items: flex-start;
   justify-content: center;
   width: inherit;
-  height: 959px;
+  /* height: 959px; */
   background-color: black;
   padding: 40px 75px;
+  overflow: hidden;
 }
 
 .location_tabs {
@@ -378,16 +379,30 @@ nav a:hover {
   padding: 12px 16px;
 }
 
-.locations:hover {
+.locations:hover,
+.locations.active {
   background-color: rgba(82, 33, 230, 1);
 }
 
 .location_images {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   gap: 10px;
   margin-top: 30px;
+  overflow: hidden;
+}
+
+.location_images img {
+  width: 306px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.4 ease-in-out;
+}
+
+.location_images img:hover {
+  transform: scale(1.05);
 }
 
 #talk {
